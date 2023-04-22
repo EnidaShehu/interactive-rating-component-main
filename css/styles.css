@@ -59,9 +59,19 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-.number:active {
+.number:active,.number:focus {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 12%, 30%);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .answer {
